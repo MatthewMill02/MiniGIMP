@@ -1,0 +1,71 @@
+# -----------------------------------------------------------------------------
+# Katalogi budowania (CMake / Qt Creator „shadow build”)
+# -----------------------------------------------------------------------------
+build/
+build-*/
+cmake-build-*/
+out/
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+x64/
+
+# -----------------------------------------------------------------------------
+# Qt Creator — ustawienia użytkownika i cache (nie wersjonuj)
+# -----------------------------------------------------------------------------
+*.user
+*.user.*
+
+# -----------------------------------------------------------------------------
+# Wygenerowane przez CMake / Qt (gdy ktoś buduje w drzewie źródeł)
+# -----------------------------------------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+*.dir/
+
+# -----------------------------------------------------------------------------
+# Pliki MSVC / Visual Studio
+# -----------------------------------------------------------------------------
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.userosscache
+*.tlog
+*.obj
+*.pch
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.idb
+*.ipdb
+*.iobj
+
+# -----------------------------------------------------------------------------
+# Qt — metadane kompilacji (na wypadek lokalnych śmieci poza build/)
+# -----------------------------------------------------------------------------
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+*.qm
+
+# -----------------------------------------------------------------------------
+# Edytory / OS
+# -----------------------------------------------------------------------------
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
